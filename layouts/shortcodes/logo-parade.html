@@ -1,0 +1,7 @@
+<div class="logo-parade-wrapper">
+  <div class="logo-parade-carousel">
+    {{ range .Page.Params.clients }}
+    <div><img src="{{ . }}"/></div>
+    {{ end }}
+  </div>
+</div>

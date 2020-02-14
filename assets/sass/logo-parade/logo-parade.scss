@@ -1,0 +1,33 @@
+.logo-parade-wrapper {
+  max-width: 80vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.logo-parade-carousel {
+  overflow: hidden;
+  width: 100%;
+
+  .slick-list {
+    max-width: 100%;
+
+    .container {
+      width: 100%;
+      max-width: none;
+    }
+
+    .slick-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 150px;
+    }
+
+    img {
+      max-height: 150px;
+      max-width: 150px;
+      margin: 0 auto;
+      align-self: center;
+    }
+  }
+}
